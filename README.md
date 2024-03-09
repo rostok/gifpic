@@ -3,7 +3,7 @@ GIFPIC is a ultra simple GIF encoder for Lua capable of handling very large reso
 The rationale for this was to overcome LOVE2D texture size limit in order to save enourmous game map. GIFPIC should handle massive resolutions like 32000x32000.
 
 # usage
-quite simple really. require gipic, call net(), draw with pset() and finally save()
+quite simple really. require gipic, call `new()`, draw with `pset()` and finally `save()`
 
 ```lua
 package.path = package.path .. ";?.lua;lib/?.lua"
